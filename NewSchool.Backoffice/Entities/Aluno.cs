@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NewSchool.Backoffice.Entities
+﻿namespace NewSchool.Backoffice.Entities
 {
     public class Aluno
     {

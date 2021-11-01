@@ -1,12 +1,5 @@
-﻿
-using Flunt.Br;
-using Flunt.Validations;
+﻿using Flunt.Validations;
 using NewSchool.Backoffice.Commands.Input;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NewSchool.Backoffice.Commands.Contracts.Aluno
 {
@@ -17,6 +10,7 @@ namespace NewSchool.Backoffice.Commands.Contracts.Aluno
             Requires().IsNotNullOrEmpty(command.Nome, "Nome", "Nome é obrigatório!");
             Requires().IsNotNullOrEmpty(command.Sobrenome, "Sobrenome", "Sobrenome é obrigatório!");
             Requires().IsNotNullOrEmpty(command.Cpf, "Cpf", "Cpf é obrigatório!");
+            Requires().IsNotNullOrEmpty(command.Telefone, "Telefone", "Cpf é obrigatório!");
         }
     }
 }

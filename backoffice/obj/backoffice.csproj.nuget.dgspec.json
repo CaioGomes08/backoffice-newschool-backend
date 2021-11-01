@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Newschool\\backoffice-backend\\backoffice\\backoffice\\backoffice.csproj": {}
+    "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\backoffice\\backoffice.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Newschool\\backoffice-backend\\backoffice\\backoffice\\backoffice.csproj": {
+    "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\backoffice\\backoffice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Newschool\\backoffice-backend\\backoffice\\backoffice\\backoffice.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\backoffice\\backoffice.csproj",
         "projectName": "backoffice",
-        "projectPath": "D:\\Projetos\\Newschool\\backoffice-backend\\backoffice\\backoffice\\backoffice.csproj",
-        "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Newschool\\backoffice-backend\\backoffice\\backoffice\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\backoffice\\backoffice.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\backoffice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Caio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,12 +22,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dealtech/_packaging/Deal/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra.Data\\NewSchool.Backoffice.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra.Data\\NewSchool.Backoffice.Infra.Data.csproj"
+              },
+              "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\NewSchool.Backoffice.Infra.csproj": {
+                "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\NewSchool.Backoffice.Infra.csproj"
+              },
+              "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\NewSchool.Backoffice.csproj": {
+                "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\NewSchool.Backoffice.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,7 +74,200 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra.Data\\NewSchool.Backoffice.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra.Data\\NewSchool.Backoffice.Infra.Data.csproj",
+        "projectName": "NewSchool.Backoffice.Infra.Data",
+        "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra.Data\\NewSchool.Backoffice.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dealtech/_packaging/Deal/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\NewSchool.Backoffice.csproj": {
+                "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\NewSchool.Backoffice.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\NewSchool.Backoffice.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\NewSchool.Backoffice.Infra.csproj",
+        "projectName": "NewSchool.Backoffice.Infra",
+        "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\NewSchool.Backoffice.Infra.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dealtech/_packaging/Deal/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\NewSchool.Backoffice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\NewSchool.Backoffice.csproj",
+        "projectName": "NewSchool.Backoffice",
+        "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\NewSchool.Backoffice.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dealtech/_packaging/Deal/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\NewSchool.Backoffice.Infra.csproj": {
+                "projectPath": "C:\\Users\\lucas\\Google Drive\\Projetos\\backoffice-newschool-backend\\NewSchool.Backoffice.Infra\\NewSchool.Backoffice.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Flunt.Br": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

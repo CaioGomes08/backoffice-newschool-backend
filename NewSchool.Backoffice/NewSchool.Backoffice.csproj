@@ -9,4 +9,8 @@
     <PackageReference Include="Flunt.Br" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NewSchool.Backoffice.Infra\NewSchool.Backoffice.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
