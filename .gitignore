@@ -260,3 +260,6 @@ __pycache__/
 *.pyc
 /Rommanel.IdentityServer/Logs
 /Rommanel.CadastroUsuario.API/Logs
+
+.vs
+*/obj/*
