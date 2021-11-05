@@ -36,7 +36,7 @@ namespace NewSchool.Backoffice.Handlers
         public async Task<ICommandResult> HandleAsync(AtualizarAlunoCommand command)
         {
             if (!command.EhValido())
-                return new BackOfficeCommandResult(false, "Não foi possível atualizado Aluno", command.Notifications);
+                return new BackOfficeCommandResult(false, "Não foi possível atualizar o Aluno", command.Notifications);
 
             var salvarAluno = new Aluno(command.Id,
                                             command.Nome,
@@ -52,6 +52,7 @@ namespace NewSchool.Backoffice.Handlers
         {
             if (!command.EhValido())
                 return new BackOfficeCommandResult(false, "Não foi possivel apagar Aluno", command.Notifications);
+
             await repository.DeletarAsync(command.Id);
             return new BackOfficeCommandResult(true, "Aluno deletado com sucesso", command);
         }
